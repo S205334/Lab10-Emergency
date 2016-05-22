@@ -24,7 +24,7 @@ public class DBConnect {
 		}
 	}
 
-	public Connection getConnection() {
+	public static Connection getConnection() {
 		try {
 			Connection conn = DriverManager.getConnection(jdbcUrl);
 			return conn;
